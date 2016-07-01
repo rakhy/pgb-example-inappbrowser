@@ -6,17 +6,18 @@
         id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
-    <name>InAppBrowser App</name>
+    <name>Live 99tv App</name>
 
     <description>
-        InAppBrowser example app.
+        99% tv live
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://iamrakhy.tk" email="rakhy.in@gmail.com">
+        Rakeshkumar
     </author>
 
     <preference name="phonegap-version" value="3.0.0" /> 
 
     <gap:plugin name="org.apache.cordova.core.inappbrowser" />
+   
 </widget>
