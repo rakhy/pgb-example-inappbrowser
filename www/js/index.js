@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var ref = window.open('http://www.youtube.com/embed/urmU1XIzW6g?html5=1&autoplay=1&controls=0', '_blank', 'location=no,zoom=no');
+        var ref = window.open('http://www.youtube.com/embed/urmU1XIzW6g?autoplay=1&controls=0', '_blank', 'location=no,zoom=no');
 
        /* ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
         ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
