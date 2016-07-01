@@ -37,10 +37,10 @@ var app = {
 
         var ref = window.open('http://www.youtube.com/embed/urmU1XIzW6g?html5=1&autoplay=1&controls=0', '_blank', 'location=yes,zoom=no,hidden=yes');
 
-        //ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
-        //ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
-        //ref.addEventListener('loaderror', function(event) { alert('error: ' + event.message); });
-        //ref.addEventListener('exit', function(event) { alert(event.type); });
+        ref.addEventListener('loadstart', function(event) { });
+        ref.addEventListener('loadstop', function(event) { });
+        ref.addEventListener('loaderror', function(event) {  });
+        ref.addEventListener('exit', function(event) {  });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
